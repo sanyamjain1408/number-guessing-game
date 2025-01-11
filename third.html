@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="third.css">
+    
+</head>
+<body>
+    <div class="head">
+        <a href="home" id="first">Home</a>
+        <a href="https://www.youtube.com/" id="second">Youtube channel</a>
+    </div>
+     <div id="h1"><h1>Number Guessing Game</h1></div>
+     <div class="body">
+        <p>Try and guess a random number between 1 to 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+        <h2>Guess a Number</h2>
+
+        <form class="form">
+            <label for="guessField" id="guess"></label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+        </form> 
+        <div class="resultParas">
+            <p>Previous Guesses: <span class="guesses"></span></p>
+            <p>Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="LowOrHi"></p>
+        </div> 
+
+        
+     </div>
+    <script src="third.js"></script>
+</body>
+</html>
